@@ -4,6 +4,10 @@
 
 An iOS simulator control bar for [Claude Code](https://claude.com/claude-code). It adds one row above the prompt. Built and tested in the Claude desktop app; it is drawn through the cross-surface UI API, so it should also work in the terminal, but that is untested:
 
+![sim-controls band above the Claude Code prompt](docs/screenshot.png)
+
+Layout, left to right:
+
 ```
 [ Simulator picker ]  ● Xcode MCP                         [ ▶ Run ] [ ■ Stop ]
 ```
