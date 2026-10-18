@@ -1,5 +1,7 @@
 # sim-controls
 
+[![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20me-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/cocoataster)
+
 An iOS simulator control bar for [Claude Code](https://claude.com/claude-code). It adds one row above the prompt. Built and tested in the Claude desktop app; it is drawn through the cross-surface UI API, so it should also work in the terminal, but that is untested:
 
 ```
@@ -40,6 +42,12 @@ Restart Claude Code (or run `/reload-plugins`). Start your session in the folder
 - "Running" is tracked for the app launched from this plugin; after a restart it forgets which app it started until you press Run once.
 - The status refreshes at session start, after each turn and after Run or Stop, not continuously.
 - Built against the plugin UI API as of Claude Code 2.1; later versions may change it.
+
+## Development
+
+Tests fake `xcrun`, `xcodebuild` and `claude` through the plugin test kit, so they need neither Xcode nor a simulator:
+
+    claude plugin test .
 
 ## Support
 
