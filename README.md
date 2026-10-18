@@ -41,6 +41,10 @@ Restart Claude Code (or run `/reload-plugins`). Start your session in the folder
 - The status refreshes at session start, after each turn and after Run or Stop, not continuously.
 - Built against the plugin UI API as of Claude Code 2.1; later versions may change it.
 
+## Support
+
+If this saves you clicks, you can [buy me a coffee on Ko-fi](https://ko-fi.com/cocoataster). Entirely optional.
+
 ## License
 
 MIT, see [LICENSE](LICENSE).
