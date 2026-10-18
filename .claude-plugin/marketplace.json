@@ -1,0 +1,5 @@
+{
+  "name": "xcode-run-plugin",
+  "owner": { "name": "cocoataster" },
+  "plugins": [{ "name": "sim-controls", "source": "./" }]
+}
