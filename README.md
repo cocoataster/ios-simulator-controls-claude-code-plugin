@@ -1,6 +1,6 @@
 # sim-controls
 
-An iOS simulator control bar for [Claude Code](https://claude.com/claude-code). It adds one row above the prompt, in the terminal and in the desktop app:
+An iOS simulator control bar for [Claude Code](https://claude.com/claude-code). It adds one row above the prompt. Built and tested in the Claude desktop app; it is drawn through the cross-surface UI API, so it should also work in the terminal, but that is untested:
 
 ```
 [ Simulator picker ]  ● Xcode MCP                         [ ▶ Run ] [ ■ Stop ]

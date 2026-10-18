@@ -1,5 +1,13 @@
 {
   "name": "xcode-run-plugin",
-  "owner": { "name": "cocoataster" },
-  "plugins": [{ "name": "sim-controls", "source": "./" }]
+  "owner": {
+    "name": "cocoataster"
+  },
+  "plugins": [
+    {
+      "name": "sim-controls",
+      "source": "./"
+    }
+  ],
+  "description": "iOS simulator picker with Run/Reload/Stop and Xcode MCP status for Claude Code"
 }

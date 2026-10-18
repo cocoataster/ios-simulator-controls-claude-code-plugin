@@ -1,1 +1,12 @@
-{ "name": "sim-controls", "version": "0.8.2", "description": "Simulator picker with live state, plus Run/Stop buttons that build and launch the folder's Xcode project with xcodebuild and simctl", "types": "./types/index.d.ts" }
+{
+  "name": "sim-controls",
+  "version": "0.8.2",
+  "description": "Simulator picker with live state, plus Run/Stop buttons that build and launch the folder's Xcode project with xcodebuild and simctl",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "cocoataster",
+    "url": "https://github.com/cocoataster"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/cocoataster/ios-simulator-controls-claude-plugin"
+}
