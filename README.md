@@ -28,7 +28,7 @@ Run and Stop are plain `xcodebuild` / `xcrun simctl` calls: no model turn and no
 ## Install
 
 ```
-claude plugin marketplace add cocoataster/ios-simulator-controls-claude-plugin
+claude plugin marketplace add cocoataster/ios-simulator-controls-claude-code-plugin
 claude plugin install sim-controls@xcode-run-plugin
 ```
 
